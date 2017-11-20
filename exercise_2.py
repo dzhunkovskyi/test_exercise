@@ -7,6 +7,3 @@ def handle_string(value):
 		if element.isdigit():
 			count_digits+=1
 	return count_letters, count_digits
-
-a, b = handle_string("Hello world! 123!")
-print(a, b)
